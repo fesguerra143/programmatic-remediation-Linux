@@ -103,10 +103,9 @@ sudo passwd root
 
 ### Step 6) Scan Results After Remediation
 
-<img width="700" alt="scan results" src="https://github.com/user-attachments/assets/2cf0f6bb-51c9-4052-9649-7a3049937a0e" />
+<img width="700" alt="scan results" src="https://github.com/user-attachments/assets/cbce78c3-53b1-4eba-a198-b79ac6f44c1f" />
 
 #### Tenable Vulnerability Management Report
-[Tenable Vulnerability Management Report - Final ](https://drive.google.com/file/d/1wsiYlNjNFqvXqji4pbG02z2_a-n1-Hs_/view?usp=drive_link)
-
+[Tenable Vulnerability Management Report - Final ](https://drive.google.com/file/d/1ID-hSem0YbmA8_20D-kyk4JWR9_TPJ_l/view?usp=drive_link)
 
 ---
