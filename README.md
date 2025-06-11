@@ -24,7 +24,7 @@ This project is about remediating a Linux VM with the following vulnerabilities 
 - [Step 2)  Login to tenable](#step-2--login-to-tenable)
 - [Step 3) Create a User Defined Template](#step-3-create-a-user-defined-template)
 - [Step 4) Create the Vulnerabilities](#step-4-create-the-vulnerabilities)
-- [Step 5) Remediation :](#step-5-remediation-)
+- [Step 5) Remediation](#step-5-remediation-)
 - [Step 6) Scan Results After Remediation](#step-6-scan-results-after-remediation)
 ---
 
