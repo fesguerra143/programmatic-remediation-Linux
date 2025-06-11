@@ -34,26 +34,13 @@ This project is about remediating a Linux VM with the following vulnerabilities 
 <img width="700" alt="vm7" src="https://github.com/user-attachments/assets/e3f43af8-ff41-4694-b1de-7c4cfff4d1ba" />
 
 ---
-### Step 2) Log into the VM and disable the Windows Firewall 
-
-#### Bastion Connection:
-
-<img width="700" alt="rdp" src="https://github.com/user-attachments/assets/cbed6adf-9061-4fe8-a49e-5e4061ac9ebb" />
-
-
-#### Disable Windows Firewall 
-
-<img width="700" alt="wf" src="https://github.com/user-attachments/assets/b2cc7376-5bc6-4cf1-82ad-e549a2c393ee" />
-
----
-
-### Step 3) Login to tenable
+### Step 2)  Login to tenable
 
 <img width="400" alt="tenablelogin" src="https://github.com/user-attachments/assets/65aa3c73-113b-4b85-8b79-de3a142d4e4b" />
 
 ---
 
-### Step 4) Create a User Defined Template
+### Step 3) Create a User Defined Template
 
 #### Select Linux Vulnerabilities DISA STIG Template
 
