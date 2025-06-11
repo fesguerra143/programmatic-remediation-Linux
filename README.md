@@ -61,9 +61,17 @@ This project is about remediating a Linux VM with the following vulnerabilities 
 
 #### [Tenable Vulnerability Management Report - Initial](https://drive.google.com/file/d/1kLms34Q2ugVYL5-4Q0IHXvQVsvof4iAF/view?usp=drive_link)
 ---
-### Step 4) Remediation Implementation
+### Step 5) Create the Vulnerabilities 
 
-##### Remediate FireFox
+
+<img width="400" alt="scan results" src="https://github.com/user-attachments/assets/852e5d1e-0d7e-4e83-b4cb-66eb4591a119" />
+
+
+---
+
+### Step 5) Remediation : Use the bash scripts to automatically remediate vulnerabilities
+
+##### Remediate Default Root Password:
 
 <img width="400" alt="scan results" src="https://github.com/user-attachments/assets/8bb0add0-ae35-411e-bdcd-f267df0f28fe" />
 
@@ -85,6 +93,7 @@ This project is about remediating a Linux VM with the following vulnerabilities 
 
 
 ---
+
 ### Step 6) Scan Results After Remediation
 
 <img width="700" alt="scan results" src="https://github.com/user-attachments/assets/2cf0f6bb-51c9-4052-9649-7a3049937a0e" />
