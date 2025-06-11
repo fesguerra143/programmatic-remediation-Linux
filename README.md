@@ -105,7 +105,6 @@ sudo passwd root
 
 <img width="700" alt="scan results" src="https://github.com/user-attachments/assets/cbce78c3-53b1-4eba-a198-b79ac6f44c1f" />
 
-#### Tenable Vulnerability Management Report
 [Tenable Vulnerability Management Report - Final ](https://drive.google.com/file/d/1ID-hSem0YbmA8_20D-kyk4JWR9_TPJ_l/view?usp=drive_link)
 
 ---
