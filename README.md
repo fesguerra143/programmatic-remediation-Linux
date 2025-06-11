@@ -95,7 +95,7 @@ sudo passwd root
 [Remediation Script](https://github.com/fesguerra143/automation/blob/414385b6496cc98f2ae3ed6e5cd39eb4ea03edf9/remediation-openssl-3.0.5-install.sh)
 
 ##### Remediate Telnet:
-<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/72b61abf-5959-4ab0-8ed5-b992bdf36cbf" />
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/b98e7f03-a081-40d4-a0cc-bfaea1d1f736" />
 
 [Remediation Script](https://github.com/fesguerra143/automation/blob/414385b6496cc98f2ae3ed6e5cd39eb4ea03edf9/remediation-Telnet-Remove.sh)
 
