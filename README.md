@@ -83,14 +83,6 @@ sudo passwd root
 
 ### Step 5) Remediation : Use the bash scripts to automatically remediate vulnerabilities
 
-Use the bash scripts to automatically remediate vulnerabilities
-Remediate Default Root Password:
-https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-root-password.sh
-Remediate OpenSSL:
-https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-openssl-3.0.5-install.sh
-Remediate Telnet:
-https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-Telnet-Remove.sh
-
 ##### Remediate Default Root Password:
 
 <img width="600" alt="scan results" src="https://github.com/user-attachments/assets/1ba0f896-fa36-4870-88bf-9769a4497611" />
