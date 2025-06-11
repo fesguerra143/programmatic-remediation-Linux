@@ -2,18 +2,19 @@
 
 # Programmatic Vulnerability Remediation Project
 
-This project is about remediating a Windows 10 VM with the following vulnerabilities using DISA STIG Compliance vulnerability scan:
-- Old Version of FireFox: Insecure Software Windows
-- Enable SMB v1
-- Enable discouraged cryptographic protocols: SSL 2.0, SSL 3.0, TLS 1.0, TLS 1.1 
+This project is about remediating a Linux VM with the following vulnerabilities using DISA STIG Compliance vulnerability scan:
+- Default Root Password - Enabled. 
+- OpenSSL
+- Telnet
 
-![Windows 10](https://github.com/user-attachments/assets/09eb2273-339e-418a-b74c-ec3672980485)
+
+![Linux](https://github.com/user-attachments/assets/8f05ea1c-10e9-4956-a16b-b3533f7c57ad)
 
 ---
 # Tools & Technology:
 - Tenable (enterprise vulnerability management platform)
 - Azure Virtual Machine
-- PowerShell
+- Bash 
 
 
 ---
@@ -30,8 +31,7 @@ This project is about remediating a Windows 10 VM with the following vulnerabili
 
 ### Step 1) Provision virtual machine in the Azure portal
 
-<img width="700" alt="vm7" src="https://github.com/user-attachments/assets/9e8c5e4a-3348-47c4-9565-a3958e21ee9b" />
-
+<img width="700" alt="vm7" src="https://github.com/user-attachments/assets/e3f43af8-ff41-4694-b1de-7c4cfff4d1ba" />
 
 ---
 ### Step 2) Log into the VM and disable the Windows Firewall 
@@ -53,16 +53,22 @@ This project is about remediating a Windows 10 VM with the following vulnerabili
 
 ---
 
-### Step 4) Create a Custom Scan
+### Step 4) Create a User Defined Template
 
-#### Select a DISA STIG Template
+#### Select Linux Vulnerabilities DISA STIG Template
 
-<img width="700" alt="scan" src="https://github.com/user-attachments/assets/4f4080e2-8a6f-478c-bbb8-d03fc46a32a9" />
+<img width="700" alt="scan" src="https://github.com/user-attachments/assets/46931302-9dca-47e5-a17c-0ef05a64b08b" />
 
 
 #### Configure Scan Basic settings
 
 <img width="700" alt="credentials" src="https://github.com/user-attachments/assets/18a0ca1f-7065-4e2a-9d10-8c28267efaf0" />
+
+#### Configure Scan Credential settings
+
+<img width="700" alt="credentials" src="https://github.com/user-attachments/assets/03528eb3-9c7c-4d43-8d6e-708b71e7262f" />
+
+
 
 #### Scan Results Prior Remediation
 <img width="700" alt="scan results" src="https://github.com/user-attachments/assets/4f0b71f1-f2a7-4141-a21c-3a6accac36fd" />
