@@ -21,10 +21,10 @@ This project is about remediating a Linux VM with the following vulnerabilities 
 # Table of contents
 
 - [Step 1) Provision virtual machine in the Azure portal](#step-1-provision-virtual-machine-in-the-azure-portal)
-- [Step 2) Log into the VM and disable the Windows Firewall](#step-2-log-into-the-vm-and-disable-the-windows-firewall)
-- [Step 3) Login to tenable](#step-3-login-to-tenable)
-- [Step 4) Create a Custom Scan](#step-4-create-a-custom-scan)
-- [Step 5) Remediation Implementation](#step-5-remediation-implementation)
+- [Step 2)  Login to tenable](#step-2--login-to-tenable)
+- [Step 3) Create a User Defined Template](#step-3-create-a-user-defined-template)
+- [Step 4) Create the Vulnerabilities](#step-4-create-the-vulnerabilities)
+- [Step 5) Remediation :](#step-5-remediation-)
 - [Step 6) Scan Results After Remediation](#step-6-scan-results-after-remediation)
 ---
 
@@ -56,7 +56,7 @@ This project is about remediating a Linux VM with the following vulnerabilities 
 <img width="700" alt="credentials" src="https://github.com/user-attachments/assets/03528eb3-9c7c-4d43-8d6e-708b71e7262f" />
 
 ---
-### Step 5) Create the Vulnerabilities 
+### Step 4) Create the Vulnerabilities 
 #### a. Log into your VM with SSH and install and Start Telnet (insecure 3rd party application):
 sudo apt update (to upgrade installed packages) <br />
 sudo apt install telnetd -y (to install telnet server)<br />
@@ -81,7 +81,7 @@ sudo passwd root
 
 ---
 
-### Step 5) Remediation : Use the bash scripts to automatically remediate vulnerabilities
+### Step 5) Remediation : 
 
 ##### Remediate Default Root Password:
 
