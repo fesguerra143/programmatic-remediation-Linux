@@ -3,8 +3,8 @@
 # Programmatic Vulnerability Remediation Project
 
 This project is about remediating a Linux VM with the following vulnerabilities using DISA STIG Compliance vulnerability scan:
-- Default Root Password - Enabled. 
-- Telnet - Enabled.
+- Default Root Password  
+- Telnet 
 - OpenSSL 
 
 
