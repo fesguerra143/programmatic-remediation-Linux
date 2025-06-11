@@ -4,8 +4,8 @@
 
 This project is about remediating a Linux VM with the following vulnerabilities using DISA STIG Compliance vulnerability scan:
 - Default Root Password - Enabled. 
-- OpenSSL
-- Telnet
+- Telnet - Enabled.
+- OpenSSL 
 
 
 ![Linux](https://github.com/user-attachments/assets/8f05ea1c-10e9-4956-a16b-b3533f7c57ad)
