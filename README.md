@@ -56,14 +56,12 @@ This project is about remediating a Linux VM with the following vulnerabilities 
 <img width="700" alt="credentials" src="https://github.com/user-attachments/assets/03528eb3-9c7c-4d43-8d6e-708b71e7262f" />
 
 
+#### Initial Baseline Scan Results
+<img width="700" alt="scan results" src="https://github.com/user-attachments/assets/c1963fa0-9179-40d4-b16d-12c2bf5c9ce2" />
 
-#### Scan Results Prior Remediation
-<img width="700" alt="scan results" src="https://github.com/user-attachments/assets/4f0b71f1-f2a7-4141-a21c-3a6accac36fd" />
-
-
-#### [Tenable Vulnerability Management Report](https://drive.google.com/file/d/1nMRHKEVorILV_Hu9w-JCPfZ9BqZymT0g/view?usp=sharing)
+#### [Tenable Vulnerability Management Report - Initial](https://drive.google.com/file/d/1kLms34Q2ugVYL5-4Q0IHXvQVsvof4iAF/view?usp=drive_link)
 ---
-### Step 5) Remediation Implementation
+### Step 4) Remediation Implementation
 
 ##### Remediate FireFox
 
