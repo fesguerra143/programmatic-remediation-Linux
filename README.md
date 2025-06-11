@@ -70,7 +70,7 @@ sudo systemctl status inetd.service (check if it successfully started)
 #### b. Log into your VM with SSH and enable the root account and allow SSH login with root: 
 sudo grep -q '^PermitRootLogin' /etc/ssh/sshd_config && sudo sed -i 's/^PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config || echo 'PermitRootLogin yes' | sudo tee -a /etc/ssh/sshd_config && sudo systemctl restart sshd <br />
 
-Log into your VM with SSH and set the root password to “root” (Insecure OS configuration):
+Log into your VM with SSH and set the root password to “root” (Insecure OS configuration):<br />
 sudo passwd root
 
 #### Scan Results After creation of vulnerabilities
@@ -83,24 +83,26 @@ sudo passwd root
 
 ### Step 5) Remediation : Use the bash scripts to automatically remediate vulnerabilities
 
+Use the bash scripts to automatically remediate vulnerabilities
+Remediate Default Root Password:
+https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-root-password.sh
+Remediate OpenSSL:
+https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-openssl-3.0.5-install.sh
+Remediate Telnet:
+https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-Telnet-Remove.sh
+
 ##### Remediate Default Root Password:
 
-<img width="400" alt="scan results" src="https://github.com/user-attachments/assets/8bb0add0-ae35-411e-bdcd-f267df0f28fe" />
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/1ba0f896-fa36-4870-88bf-9769a4497611" />
 
 
-[Remediation PowerShell Script](remediation/remediation-FireFox-uninstall.ps1)
-
-##### Remediate SMB v1
-<img width="400" alt="scan results" src="https://github.com/user-attachments/assets/2c974f26-b78f-47d3-92cc-1c8a1f647c02" />
-
-[Remediation Powershell Script](remediation/remediation-SMBv1.ps1)
+##### Remediate OpenSSL:
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/0b0110bf-07b7-4d27-b5d1-abf7f82ff4d2" />
 
 
-##### Remediate discouraged cryptographic protocols
-<img width="400" alt="scan results" src="https://github.com/user-attachments/assets/72b61abf-5959-4ab0-8ed5-b992bdf36cbf" />
+##### Remediate Telnet:
+<img width="600" alt="scan results" src="https://github.com/user-attachments/assets/72b61abf-5959-4ab0-8ed5-b992bdf36cbf" />
 
-
-[Remediation Powershell Script](https://github.com/fesguerra143/automation/blob/cc635a606dfa9d55829f1b4ffbe6a9d34a4debad/toggle-protocols.ps1)
 
 
 
