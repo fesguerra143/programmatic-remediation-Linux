@@ -87,16 +87,17 @@ sudo passwd root
 
 <img width="600" alt="scan results" src="https://github.com/user-attachments/assets/1ba0f896-fa36-4870-88bf-9769a4497611" />
 
+[Remediation Script](https://github.com/fesguerra143/automation/blob/414385b6496cc98f2ae3ed6e5cd39eb4ea03edf9/remediation-root-password.sh)
 
 ##### Remediate OpenSSL:
 <img width="600" alt="scan results" src="https://github.com/user-attachments/assets/0b0110bf-07b7-4d27-b5d1-abf7f82ff4d2" />
 
+[Remediation Script](https://github.com/fesguerra143/automation/blob/414385b6496cc98f2ae3ed6e5cd39eb4ea03edf9/remediation-openssl-3.0.5-install.sh)
 
 ##### Remediate Telnet:
 <img width="600" alt="scan results" src="https://github.com/user-attachments/assets/72b61abf-5959-4ab0-8ed5-b992bdf36cbf" />
 
-
-
+[Remediation Script](https://github.com/fesguerra143/automation/blob/414385b6496cc98f2ae3ed6e5cd39eb4ea03edf9/remediation-Telnet-Remove.sh)
 
 ---
 
@@ -105,7 +106,7 @@ sudo passwd root
 <img width="700" alt="scan results" src="https://github.com/user-attachments/assets/2cf0f6bb-51c9-4052-9649-7a3049937a0e" />
 
 #### Tenable Vulnerability Management Report
-[Tenable Vulnerability Management Report](https://drive.google.com/file/d/1wsiYlNjNFqvXqji4pbG02z2_a-n1-Hs_/view?usp=drive_link)
+[Tenable Vulnerability Management Report - Final ](https://drive.google.com/file/d/1wsiYlNjNFqvXqji4pbG02z2_a-n1-Hs_/view?usp=drive_link)
 
 
 ---
