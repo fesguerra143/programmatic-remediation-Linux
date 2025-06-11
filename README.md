@@ -58,17 +58,17 @@ This project is about remediating a Linux VM with the following vulnerabilities 
 ---
 ### Step 5) Create the Vulnerabilities 
 #### a. Log into your VM with SSH and install and Start Telnet (insecure 3rd party application):
-sudo apt update (to upgrade installed packages)
-sudo apt install telnetd -y (to install telnet server)
-sudo systemctl enable inetd.service (enables the inetd service so it will start automatically every time the system boots)
-sudo systemctl start inetd.service (starts the inetd service immediately)
+sudo apt update (to upgrade installed packages) <br />
+sudo apt install telnetd -y (to install telnet server)<br />
+sudo systemctl enable inetd.service (enables the inetd service so it will start automatically every time the system boots)<br />
+sudo systemctl start inetd.service (starts the inetd service immediately)<br />
 
 sudo systemctl status inetd.service (check if it successfully started)
 
 <img width="400" alt="scan results" src="https://github.com/user-attachments/assets/852e5d1e-0d7e-4e83-b4cb-66eb4591a119" />
 
 #### b. Log into your VM with SSH and enable the root account and allow SSH login with root: 
-sudo grep -q '^PermitRootLogin' /etc/ssh/sshd_config && sudo sed -i 's/^PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config || echo 'PermitRootLogin yes' | sudo tee -a /etc/ssh/sshd_config && sudo systemctl restart sshd
+sudo grep -q '^PermitRootLogin' /etc/ssh/sshd_config && sudo sed -i 's/^PermitRootLogin.*/PermitRootLogin yes/' /etc/ssh/sshd_config || echo 'PermitRootLogin yes' | sudo tee -a /etc/ssh/sshd_config && sudo systemctl restart sshd <br />
 
 Log into your VM with SSH and set the root password to “root” (Insecure OS configuration):
 sudo passwd root
